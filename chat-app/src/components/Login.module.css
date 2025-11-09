@@ -1,0 +1,50 @@
+.Loginpage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+
+.Logincard {
+  border: 1px solid silver;
+  background-color: #fff;
+  padding: 25px 35px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.Logincard h2 {
+  color: rgb(93, 93, 93);
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f9d58;
+  padding: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  color: #fff;
+  transition: all 0.2 ease;
+  -webkit-transition: all 0.2 ease;
+  -moz-transition: all 0.2 ease;
+  -ms-transition: all 0.2 ease;
+  -o-transition: all 0.2 ease;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.button:hover {
+  background-color: #07713e;
+}
+.button img {
+  width: 30px;
+  margin-right: 10px;
+}
